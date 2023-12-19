@@ -109,3 +109,4 @@ dist/
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+packages/react-native-tab-view/.yarn/
