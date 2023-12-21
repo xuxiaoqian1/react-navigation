@@ -1,7 +1,10 @@
 {
   "name": "@react-native-oh-tpl/elements",
   "description": "UI Components for React Navigation",
-  "version": "1.3.21",
+  "version": "1.3.21-0.1.1",
+  "harmony": {
+    "alias": "@react-navigation/elements"
+  },
   "keywords": [
     "react-native",
     "react-navigation",
@@ -15,7 +18,7 @@
     "directory": "packages/elements"
   },
   "bugs": {
-    "url": "https://github.com/react-native-oh-library/react-navigation/issues"
+    "url": "https://github.com/react-navigation/react-navigation/issues"
   },
   "homepage": "https://reactnavigation.org",
   "main": "lib/commonjs/index.js",
@@ -30,15 +33,19 @@
   ],
   "sideEffects": false,
   "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "scripts": {
     "prepack": "bob build",
     "clean": "del lib"
   },
+  "dependencies": {
+    "@react-navigation/elements": "1.3.21"
+  },
   "devDependencies": {
     "@react-native-masked-view/masked-view": "0.2.9",
-    "@react-navigation/native": "workspace:^",
+    "@react-navigation/native": "^6.0.0",
     "@testing-library/react-native": "^11.5.0",
     "@types/react": "~18.0.27",
     "@types/react-native": "~0.71.3",

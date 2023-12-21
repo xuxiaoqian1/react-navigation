@@ -1,6 +1,6 @@
 import { Platform } from 'react-native';
 
-import type { Layout } from '../types';
+import type { Layout } from '@react-navigation/elements/src/types';
 
 export default function getDefaultHeaderHeight(
   layout: Layout,
