@@ -10,8 +10,8 @@ import type {
   NavigationState,
   PagerProps,
   Route,
-} from './types';
-import { useAnimatedValue } from './useAnimatedValue';
+} from 'react-native-tab-view/src/types';
+import { useAnimatedValue } from 'react-native-tab-view/src/useAnimatedValue';
 
 const AnimatedViewPager = Animated.createAnimatedComponent(ViewPager);
 
