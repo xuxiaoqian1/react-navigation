@@ -1,7 +1,7 @@
 {
   "name": "@react-native-oh-tpl/react-native-tab-view",
   "description": "Tab view component for React Native",
-  "version": "3.5.2-0.0.1",
+  "version": "3.5.2-0.1.0",
   "keywords": [
     "react-native-component",
     "react-component",
@@ -14,6 +14,9 @@
     "coverflow"
   ],
   "license": "MIT",
+  "harmony": {
+    "alias": "react-native-tab-view"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/react-native-oh-library/react-navigation.git",
