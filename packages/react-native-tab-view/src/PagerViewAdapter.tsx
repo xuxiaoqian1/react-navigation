@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Animated, Keyboard, StyleSheet } from 'react-native';
 import ViewPager, {
   PageScrollStateChangedNativeEvent,
-} from 'react-native-pager-view';
+} from '@react-native-oh-tpl/react-native-pager-view';
 
 import type {
   EventEmitterProps,
@@ -11,7 +11,7 @@ import type {
   PagerProps,
   Route,
 } from './types';
-import { useAnimatedValue } from './useAnimatedValue';
+import { useAnimatedValue } from 'react-native-tab-view/src/useAnimatedValue';
 
 const AnimatedViewPager = Animated.createAnimatedComponent(ViewPager);
 

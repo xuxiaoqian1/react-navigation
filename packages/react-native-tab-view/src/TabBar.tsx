@@ -26,7 +26,7 @@ import type {
   Scene,
   SceneRendererProps,
 } from './types';
-import { useAnimatedValue } from './useAnimatedValue';
+import { useAnimatedValue } from 'react-native-tab-view/src/useAnimatedValue';
 
 export type Props<T extends Route> = SceneRendererProps & {
   navigationState: NavigationState<T>;

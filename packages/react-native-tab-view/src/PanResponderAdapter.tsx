@@ -18,7 +18,7 @@ import type {
   PagerProps,
   Route,
 } from './types';
-import { useAnimatedValue } from './useAnimatedValue';
+import { useAnimatedValue } from 'react-native-tab-view/src/useAnimatedValue';
 
 type Props<T extends Route> = PagerProps & {
   layout: Layout;

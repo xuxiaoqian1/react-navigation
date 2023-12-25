@@ -1,5 +1,5 @@
 import type { Animated } from 'react-native';
-import type { PagerViewProps } from 'react-native-pager-view';
+import type { PagerViewProps } from '@react-native-oh-tpl/react-native-pager-view';
 
 export type Route = {
   key: string;

@@ -11,8 +11,8 @@ import {
 } from 'react-native';
 import useLatestCallback from 'use-latest-callback';
 
-import { PlatformPressable } from './PlatformPressable';
-import { TabBarItemLabel } from './TabBarItemLabel';
+import { PlatformPressable } from 'react-native-tab-view/src/PlatformPressable';
+import { TabBarItemLabel } from 'react-native-tab-view/src/TabBarItemLabel';
 import type { NavigationState, Route, Scene } from './types';
 
 export type Props<T extends Route> = {
