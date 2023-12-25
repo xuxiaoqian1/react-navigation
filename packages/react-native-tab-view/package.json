@@ -6,7 +6,6 @@
     "react-native-component",
     "react-component",
     "react-native",
-    "harmony",
     "ios",
     "android",
     "tab",
@@ -38,6 +37,7 @@
   "types": "lib/typescript/src/index.d.ts",
   "files": [
     "src",
+    "harmony",
     "lib",
     "!**/__tests__"
   ],
