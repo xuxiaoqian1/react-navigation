@@ -6,7 +6,7 @@ import type {
   NavigationState,
   Route,
   SceneRendererProps,
-} from 'react-native-tab-view/src/types';
+} from './types';
 
 type Props<T extends Route> = SceneRendererProps &
   EventEmitterProps & {
@@ -54,7 +54,7 @@ export function SceneView<T extends Route>({
     };
 
     let unsubscribe: (() => void) | undefined;
-    let timer: NodeJS.Timeout | undefined;
+    let timer: NodeJS.Timeout;
 
     if (lazy && isLoading) {
       // If lazy mode is enabled, listen to when we enter screens
