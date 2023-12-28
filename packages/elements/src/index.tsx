@@ -1,7 +1,7 @@
 export { default as Background } from '@react-navigation/elements/src/Background';
 export { default as getDefaultHeaderHeight } from './Header/getDefaultHeaderHeight';
 export { default as getHeaderTitle } from '@react-navigation/elements/src/Header/getHeaderTitle';
-export { default as Header } from '@react-navigation/elements/src/Header/Header';
+export { default as Header } from './Header/Header';
 export { default as HeaderBackButton } from '@react-navigation/elements/src/Header/HeaderBackButton';
 export { default as HeaderBackContext } from '@react-navigation/elements/src/Header/HeaderBackContext';
 export { default as HeaderBackground } from '@react-navigation/elements/src/Header/HeaderBackground';
@@ -13,7 +13,7 @@ export { default as MissingIcon } from '@react-navigation/elements/src/MissingIc
 export { default as PlatformPressable } from '@react-navigation/elements/src/PlatformPressable';
 export { default as ResourceSavingView } from '@react-navigation/elements/src/ResourceSavingView';
 export { default as SafeAreaProviderCompat } from '@react-navigation/elements/src/SafeAreaProviderCompat';
-export { default as Screen } from '@react-navigation/elements/src/Screen';
+export { default as Screen } from './Screen';
 
 export const Assets = [
   // eslint-disable-next-line import/no-commonjs
