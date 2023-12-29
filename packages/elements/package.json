@@ -1,7 +1,7 @@
 {
   "name": "@react-native-oh-tpl/elements",
   "description": "UI Components for React Navigation",
-  "version": "1.3.21-0.1.1",
+  "version": "1.3.21-0.1.2",
   "harmony": {
     "alias": "@react-navigation/elements"
   },
@@ -29,7 +29,7 @@
   "files": [
     "src",
     "lib",
-    "!**/__tests__"
+    "harmony"
   ],
   "sideEffects": false,
   "publishConfig": {
