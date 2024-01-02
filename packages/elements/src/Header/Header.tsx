@@ -5,11 +5,11 @@ import {
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
 
-import type { HeaderOptions, Layout } from '@react-navigation/elements/src/types';
+import type { HeaderOptions, Layout } from '../types';
 import getDefaultHeaderHeight from './getDefaultHeaderHeight';
-import HeaderBackground from '@react-navigation/elements/src/Header/HeaderBackground';
-import HeaderShownContext from '@react-navigation/elements/src/Header/HeaderShownContext';
-import HeaderTitle from '@react-navigation/elements/src/Header/HeaderTitle';
+import HeaderBackground from './HeaderBackground';
+import HeaderShownContext from './HeaderShownContext';
+import HeaderTitle from './HeaderTitle';
 
 type Props = HeaderOptions & {
   /**

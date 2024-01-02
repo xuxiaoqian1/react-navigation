@@ -12,10 +12,10 @@ import {
   useSafeAreaInsets,
 } from 'react-native-safe-area-context';
 
-import Background from '@react-navigation/elements/src/Background';
+import Background from './Background';
 import getDefaultHeaderHeight from './Header/getDefaultHeaderHeight';
-import HeaderHeightContext from '@react-navigation/elements/src/Header/HeaderHeightContext';
-import HeaderShownContext from '@react-navigation/elements/src/Header/HeaderShownContext';
+import HeaderHeightContext from './Header/HeaderHeightContext';
+import HeaderShownContext from './Header/HeaderShownContext';
 
 type Props = {
   focused: boolean;
