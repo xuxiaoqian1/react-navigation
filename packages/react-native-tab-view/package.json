@@ -51,7 +51,7 @@
     "use-latest-callback": "^0.1.5"
   },
   "devDependencies": {
-    "@react-native-oh-tpl/react-native-pager-view": "^6.2.2-0.0.2",
+    "@react-native-oh-tpl/react-native-pager-view": "*",
     "@types/react": "^18.2.39",
     "del-cli": "^5.0.0",
     "react": "18.2.0",
