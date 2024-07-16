@@ -1,7 +1,7 @@
 {
   "name": "@react-native-oh-tpl/stack",
   "description": "Stack navigator component for iOS and Android with animated transitions and gestures",
-  "version": "6.4.0-0.0.1",
+  "version": "6.4.0-0.0.2",
   "harmony": {
     "alias": "@react-navigation/stack"
   },
@@ -50,7 +50,7 @@
     "warn-once": "^0.1.0"
   },
   "devDependencies": {
-    "@react-navigation/native": "workspace:^",
+    "@react-navigation/native": "^6.1.17",
     "@testing-library/react-native": "^11.5.0",
     "@types/color": "^3.0.1",
     "@types/react": "~18.0.27",
@@ -86,5 +86,4 @@
       ]
     ]
   }
-
 }
