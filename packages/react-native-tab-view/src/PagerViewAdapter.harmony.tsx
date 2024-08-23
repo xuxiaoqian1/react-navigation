@@ -157,7 +157,7 @@ export function PagerViewAdapter<T extends Route>({
               },
             },
           ],
-          { useNativeDriver: false }
+          { useNativeDriver: true }
         )}
         onPageSelected={(e) => {
           const index = e.nativeEvent.position;
